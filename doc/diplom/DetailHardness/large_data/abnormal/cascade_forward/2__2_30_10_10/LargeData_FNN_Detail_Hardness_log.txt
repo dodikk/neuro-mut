@@ -1,0 +1,72 @@
+??? Error using ==> unknown
+Out of memory. Type HELP MEMORY for your options.
+
+Error in ==> <a href="error:C:\MATLAB701\toolbox\nnet\nnutils\calcjx.m,209,1">calcjx at 209</a>
+jx = zeros(net.hint.xLen,QS*TS);
+
+Error in ==> <a href="error:C:\MATLAB701\toolbox\nnet\nnutils\calcjejj.m,119,1">calcjejj at 119</a>
+  Jx = calcjx(net,Pd,Zb,Zi,Zl,N,Ac,Q,TS);
+
+Error in ==> <a href="error:C:\MATLAB701\toolbox\nnet\nnet\trainlm.m,265,1">trainlm at 265</a>
+  [je,jj,normgX]=calcjejj(net,Pd,Zb,Zi,Zl,N,Ac,El,Q,TS,mem_reduc);
+
+Error in ==> <a href="error:C:\MATLAB701\toolbox\nnet\nnet\@network\train.m,278,1">network.train at 278</a>
+  [net,tr,Ac,El] = feval(trainFcn,net,Pd,Tl,Ai,Q,TS,VV,TV);
+
+Error in ==> <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\main_fnn.m,49,1">main_fnn at 49</a>
+[net, tr, Y, E, Pf, Af]= train(net, data.input, data.expected);
+
+clc
+builtin('exit')
+Elapsed time is 1441.250000 seconds.
+Training error : 0.498051
+Elapsed time is 0.047000 seconds.
+Warning: Size vector should be a row vector with integer elements.
+> In <a href="error:C:\MATLAB701\architectureoptimizer\samples\detailhardnessproblem\src\utils\GetPhasesPlotData.m,11,1">GetPhasesPlotData at 11</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamData.m,47,1">ExamData at 47</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamLargeData.m,7,1">ExamLargeData at 7</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\main_fnn.m,60,1">main_fnn at 60</a>
+Warning: Size vector should be a row vector with integer elements.
+> In <a href="error:C:\MATLAB701\architectureoptimizer\samples\detailhardnessproblem\src\utils\GetPhasesPlotData.m,12,1">GetPhasesPlotData at 12</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamData.m,47,1">ExamData at 47</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamLargeData.m,7,1">ExamLargeData at 7</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\main_fnn.m,60,1">main_fnn at 60</a>
+Warning: Size vector should be a row vector with integer elements.
+> In <a href="error:C:\MATLAB701\architectureoptimizer\samples\detailhardnessproblem\src\utils\GetPhasesPlotData.m,11,1">GetPhasesPlotData at 11</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamData.m,47,1">ExamData at 47</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamLargeData.m,7,1">ExamLargeData at 7</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\main_fnn.m,60,1">main_fnn at 60</a>
+Warning: Size vector should be a row vector with integer elements.
+> In <a href="error:C:\MATLAB701\architectureoptimizer\samples\detailhardnessproblem\src\utils\GetPhasesPlotData.m,12,1">GetPhasesPlotData at 12</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamData.m,47,1">ExamData at 47</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamLargeData.m,7,1">ExamLargeData at 7</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\main_fnn.m,60,1">main_fnn at 60</a>
+Error : 2.023548
+-------------------
+Expected temperature : 850.000000
+Received temperature : 929.894039
+Elapsed time is 0.047000 seconds.
+Warning: Size vector should be a row vector with integer elements.
+> In <a href="error:C:\MATLAB701\architectureoptimizer\samples\detailhardnessproblem\src\utils\GetPhasesPlotData.m,11,1">GetPhasesPlotData at 11</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamData.m,47,1">ExamData at 47</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamSmallData.m,7,1">ExamSmallData at 7</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\main_fnn.m,62,1">main_fnn at 62</a>
+Warning: Size vector should be a row vector with integer elements.
+> In <a href="error:C:\MATLAB701\architectureoptimizer\samples\detailhardnessproblem\src\utils\GetPhasesPlotData.m,12,1">GetPhasesPlotData at 12</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamData.m,47,1">ExamData at 47</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamSmallData.m,7,1">ExamSmallData at 7</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\main_fnn.m,62,1">main_fnn at 62</a>
+Warning: Size vector should be a row vector with integer elements.
+> In <a href="error:C:\MATLAB701\architectureoptimizer\samples\detailhardnessproblem\src\utils\GetPhasesPlotData.m,11,1">GetPhasesPlotData at 11</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamData.m,47,1">ExamData at 47</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamSmallData.m,7,1">ExamSmallData at 7</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\main_fnn.m,62,1">main_fnn at 62</a>
+Warning: Size vector should be a row vector with integer elements.
+> In <a href="error:C:\MATLAB701\architectureoptimizer\samples\detailhardnessproblem\src\utils\GetPhasesPlotData.m,12,1">GetPhasesPlotData at 12</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamData.m,47,1">ExamData at 47</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\ExamSmallData.m,7,1">ExamSmallData at 7</a>
+  In <a href="error:C:\MATLAB701\ArchitectureOptimizer\Samples\DetailHardnessProblem\src\large_data\main_fnn.m,62,1">main_fnn at 62</a>
+Error : 1.700884
+-------------------
+Expected temperature : 955.000000
+Received temperature : 910.000000

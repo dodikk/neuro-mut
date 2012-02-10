@@ -1,0 +1,23 @@
+function [] = TestDependencies()
+
+conn = [0 0 0 1 0 1 0 0; ...
+        0 0 0 0 1 0 0 0; ...
+        0 0 0 0 1 0 1 0; ...
+        0 0 0 0 0 1 0 1; ...
+        0 0 0 0 0 0 1 1; ...
+        0 0 0 0 0 0 0 1; ...
+        0 0 0 0 0 0 0 1; ...
+        0 0 0 0 0 0 0 0 ];
+    
+net.connections = conn;
+
+res = GetVertexDependencies(1, net);
+AssertEqual(res, []);
+
+res = GetVertexDependencies(5, net);
+AssertEqual(res, [2 3]);
+
+res = GetVertexDependencies(8, net);
+AssertEqual(res, [4 5 6 7]);
+
+disp('Test dependencies successfull');

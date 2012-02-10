@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Written on 22-Feb-2010 04:29:44 using the XML Toolbox for Matlab -->
+<root xml_tb_version="3.2.1" idx="1" type="struct" size="1 1">
+  <axiom idx="1" type="char" size="1 37">[_c:io_d:io]:i+1+2_layers+1_outputs:o</axiom>
+  <rules idx="1" type="struct" size="1 10">
+    <before idx="1" type="char" size="1 7">_layers</before>
+    <after idx="1" type="char" size="1 19">[[_a:io]:io+1_b:io]</after>
+    <before idx="2" type="char" size="1 5">_a:io</before>
+    <after idx="2" type="char" size="1 17">_b:io+1[_a:io]:io</after>
+    <before idx="3" type="char" size="1 2">_a</before>
+    <after idx="3" type="char" size="1 31">[[_tp510683:io]:i+1_tp510684:o]</after>
+    <before idx="4" type="char" size="1 12">_tp510683:io</before>
+    <after idx="4" type="char" size="1 31">_tp510684:io+1[_tp510683:io]:io</after>
+    <before idx="5" type="char" size="1 2">_a</before>
+    <after idx="5" type="char" size="1 31">[[_tp422253:io]:i+1_tp422255:o]</after>
+    <before idx="6" type="char" size="1 12">_tp422253:io</before>
+    <after idx="6" type="char" size="1 31">_tp422255:io+1[_tp422253:io]:io</after>
+    <before idx="7" type="char" size="1 2">_b</before>
+    <after idx="7" type="char" size="1 19">[_tp333505:i+1_b:o]</after>
+    <before idx="8" type="char" size="1 9">_tp333505</before>
+    <after idx="8" type="char" size="1 28">[_tp224753:io+1_tp224755:io]</after>
+    <before idx="9" type="char" size="1 9">_tp510684</before>
+    <after idx="9" type="char" size="1 26">[_tp565030:i+1_tp565031:o]</after>
+    <before idx="10" type="char" size="1 9">_tp565030</before>
+    <after idx="10" type="char" size="1 28">[_tp294408:io+1_tp294409:io]</after>
+  </rules>
+</root>

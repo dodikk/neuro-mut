@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- Written on 23-Apr-2010 15:21:41 using the XML Toolbox for Matlab -->
+<root xml_tb_version="3.2.1" idx="1" type="struct" size="1 1">
+  <axiom idx="1" type="char" size="1 127">[_p2:io_p1:io_p0:io]:i+1[_layers:io]+1[_AIR1:io_WATER1:io_DT1:io_AIR2:io_WATER2:io_DT2:io_AIR3:io_WATER3:io_DT3:io_TEMPER:io]:o</axiom>
+  <rules idx="1" type="struct" size="1 14">
+    <before idx="1" type="char" size="1 7">_layers</before>
+    <after idx="1" type="char" size="1 19">[[_a:io]:io+1_b:io]</after>
+    <before idx="2" type="char" size="1 5">_a:io</before>
+    <after idx="2" type="char" size="1 17">_b:io+1[_a:io]:io</after>
+    <before idx="3" type="char" size="1 2">_a</before>
+    <after idx="3" type="char" size="1 19">[_tp342418:i+1_a:o]</after>
+    <before idx="4" type="char" size="1 9">_tp342418</before>
+    <after idx="4" type="char" size="1 31">[[_tp403225:io]:i+1_tp403226:o]</after>
+    <before idx="5" type="char" size="1 12">_tp403225:io</before>
+    <after idx="5" type="char" size="1 31">_tp403226:io+1[_tp403225:io]:io</after>
+    <before idx="6" type="char" size="1 9">_tp403226</before>
+    <after idx="6" type="char" size="1 26">[_tp443693:i+1_tp443695:o]</after>
+    <before idx="7" type="char" size="1 9">_tp443695</before>
+    <after idx="7" type="char" size="1 26">[_tp480476:i+1_tp480478:o]</after>
+    <before idx="8" type="char" size="1 9">_tp342418</before>
+    <after idx="8" type="char" size="1 14">[_tp503450:io]</after>
+    <before idx="9" type="char" size="1 9">_tp403226</before>
+    <after idx="9" type="char" size="1 31">[[_tp563781:io]:i+1_tp563782:o]</after>
+    <before idx="10" type="char" size="1 12">_tp563781:io</before>
+    <after idx="10" type="char" size="1 31">_tp563782:io+1[_tp563781:io]:io</after>
+    <before idx="11" type="char" size="1 9">_tp480478</before>
+    <after idx="11" type="char" size="1 31">[[_tp024976:io]:i+1_tp024978:o]</after>
+    <before idx="12" type="char" size="1 12">_tp024976:io</before>
+    <after idx="12" type="char" size="1 31">_tp024978:io+1[_tp024976:io]:io</after>
+    <before idx="13" type="char" size="1 2">_b</before>
+    <after idx="13" type="char" size="1 26">[_tp090179:i+1_tp090181:o]</after>
+    <before idx="14" type="char" size="1 9">_tp403226</before>
+    <after idx="14" type="char" size="1 26">[_tp151453:i+1_tp151454:o]</after>
+  </rules>
+</root>

@@ -1,0 +1,16 @@
+function ...
+    [] = ...
+LSystemMutation( ...
+    lSystemFileName, ...
+    destinationFileName, ...
+    MutationCallback )
+%
+%
+
+lSystem = xml_load(lSystemFileName);
+result = MutationCallback(lSystem);
+
+xml_save(destinationFileName, result);
+
+return
+end

@@ -1,0 +1,47 @@
+--------------------------------------------------------------------
+Graph generator tool.
+Author : Oleksandr Dodatko
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Project dependencies :
+
+1) XML Toolbox for Matlab
+http://www.geodise.org
+Author: Marc Molinari <m.molinari@soton.ac.uk>
+$Revision: 1.12 $ $Date: 2005/05/18 16:40:23 $
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+---------------------------
+ Installation Instructions
+---------------------------
+1) Install the XML toolbox.
+2) Unzip the files from the archive file. This creates a 
+subfolder named "GraphGenerator".
+
+This new directory containing .m and *.exe files should be added 
+to the Matlab search path. To do this,
+
+1) Navigate to the 'Set Path' dialog 
+ ('File' > 'Set Path'). Click the 'Add Folder' button and browse 
+ to the directory containing the GraphGenerator, select 'OK' to 
+ confirm. You may wish to click the 'Save' button to preserve 
+ the configuration between sessions. Click 'Close' to dismiss 
+ the dialog.
+
+2) Add the path to the GraphGenerator to the 'Path' environment variable of the MS Windows.
+
+3) If you are using an operating system, other than 32 bit MS Windows, you should rebuild the GraphCompiler project and copy the executable to the GraphGenerator folder.
+
+---------------------------
+ Test the Installation
+---------------------------
+To test the installation, print into the Command Window :
+
+>> GenerateGraphWiz('cascade.xml', 6, 'cascade.gv')
+This should produce the following files : 
+1) graph.txt  - the result of the L-System transformations
+2) cascade.gv - The graph, stored in the GraphWiz (http://www.graphviz.org/) format.
+3) compiler.log, parser.log - log files.
+---------------------------

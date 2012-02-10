@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Written on 22-Jan-2009 19:28:57 using the XML Toolbox for Matlab -->
+<root xml_tb_version="3.2.1" idx="1" type="struct" size="1 1">
+  <axiom idx="1" type="char" size="1 5">_a:io</axiom>
+  <rules idx="1" type="struct" size="1 1">
+    <before idx="1" type="char" size="1 5">_a:io</before>
+    <after idx="1" type="char" size="1 27">_b:io+1+2[_a:io]:o[_a:io]:o</after>
+  </rules>
+</root>

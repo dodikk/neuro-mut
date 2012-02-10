@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Written on 16-Apr-2010 00:00:06 using the XML Toolbox for Matlab -->
+<root xml_tb_version="3.2.1" idx="1" type="struct" size="1 1">
+  <axiom idx="1" type="char" size="1 124">[_rad:io_hard:io]:i+1[_layers:io]+1[_AIR1:io_WATER1:io_DT1:io_AIR2:io_WATER2:io_DT2:io_AIR3:io_WATER3:io_DT3:io_TEMPER:io]:o</axiom>
+  <rules idx="1" type="struct" size="1 5">
+    <before idx="1" type="char" size="1 7">_layers</before>
+    <after idx="1" type="char" size="1 19">[[_a:io]:io+1_b:io]</after>
+    <before idx="2" type="char" size="1 5">_a:io</before>
+    <after idx="2" type="char" size="1 17">_b:io+1[_a:io]:io</after>
+    <before idx="3" type="char" size="1 2">_a</before>
+    <after idx="3" type="char" size="1 26">[_tp322956:i+1_tp322957:o]</after>
+    <before idx="4" type="char" size="1 2">_b</before>
+    <after idx="4" type="char" size="1 31">[[_tp374314:io]:i+1_tp374315:o]</after>
+    <before idx="5" type="char" size="1 12">_tp374314:io</before>
+    <after idx="5" type="char" size="1 31">_tp374315:io+1[_tp374314:io]:io</after>
+  </rules>
+</root>

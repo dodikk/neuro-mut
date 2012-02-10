@@ -1,0 +1,297 @@
+
+Grammar
+rule 1    Graph -> NodeList
+rule 2    NodeList ->		/* empty */
+rule 3    NodeList -> Node NodeList
+rule 4    Node -> AbstractVertex OptionalAttributes ConnectionList
+rule 5    OptionalAttributes ->		/* empty */
+rule 6    OptionalAttributes -> ATTRIBUTES_HEADER ID
+rule 7    ConnectionList ->		/* empty */
+rule 8    @1 ->		/* empty */
+rule 9    ConnectionList -> CONNECTION @1 ConnectionList
+rule 10   AbstractVertex -> Subgraph
+rule 11   AbstractVertex -> ConcreteVertex
+rule 12   @2 ->		/* empty */
+rule 13   @3 ->		/* empty */
+rule 14   Subgraph -> @2 LBRACKET @3 Graph RBRACKET
+rule 15   @4 ->		/* empty */
+rule 16   ConcreteVertex -> NODE_SEPARATOR @4 ID
+
+Terminals, with rules where they appear
+
+$ (-1)
+error (256)
+CONNECTION (258) 9
+ID (259) 6 16
+LBRACKET (260) 14
+RBRACKET (261) 14
+ATTRIBUTES_HEADER (262) 6
+NODE_SEPARATOR (263) 16
+
+Nonterminals, with rules where they appear
+
+Graph (9)
+    on left: 1, on right: 14
+NodeList (10)
+    on left: 2 3, on right: 1 3
+Node (11)
+    on left: 4, on right: 3
+OptionalAttributes (12)
+    on left: 5 6, on right: 4
+ConnectionList (13)
+    on left: 7 9, on right: 4 9
+@1 (14)
+    on left: 8, on right: 9
+AbstractVertex (15)
+    on left: 10 11, on right: 4
+Subgraph (16)
+    on left: 14, on right: 10
+@2 (17)
+    on left: 12, on right: 14
+@3 (18)
+    on left: 13, on right: 14
+ConcreteVertex (19)
+    on left: 16, on right: 11
+@4 (20)
+    on left: 15, on right: 16
+
+
+state 0
+
+    NODE_SEPARATOR	shift, and go to state 1
+
+    LBRACKET	reduce using rule 12 (@2)
+    $default	reduce using rule 2 (NodeList)
+
+    Graph	go to state 22
+    NodeList	go to state 2
+    Node	go to state 3
+    AbstractVertex	go to state 4
+    Subgraph	go to state 5
+    @2  	go to state 6
+    ConcreteVertex	go to state 7
+
+
+
+state 1
+
+    ConcreteVertex  ->  NODE_SEPARATOR . @4 ID   (rule 16)
+
+    $default	reduce using rule 15 (@4)
+
+    @4  	go to state 8
+
+
+
+state 2
+
+    Graph  ->  NodeList .   (rule 1)
+
+    $default	reduce using rule 1 (Graph)
+
+
+
+state 3
+
+    NodeList  ->  Node . NodeList   (rule 3)
+
+    NODE_SEPARATOR	shift, and go to state 1
+
+    LBRACKET	reduce using rule 12 (@2)
+    $default	reduce using rule 2 (NodeList)
+
+    NodeList	go to state 9
+    Node	go to state 3
+    AbstractVertex	go to state 4
+    Subgraph	go to state 5
+    @2  	go to state 6
+    ConcreteVertex	go to state 7
+
+
+
+state 4
+
+    Node  ->  AbstractVertex . OptionalAttributes ConnectionList   (rule 4)
+
+    ATTRIBUTES_HEADER	shift, and go to state 10
+
+    $default	reduce using rule 5 (OptionalAttributes)
+
+    OptionalAttributes	go to state 11
+
+
+
+state 5
+
+    AbstractVertex  ->  Subgraph .   (rule 10)
+
+    $default	reduce using rule 10 (AbstractVertex)
+
+
+
+state 6
+
+    Subgraph  ->  @2 . LBRACKET @3 Graph RBRACKET   (rule 14)
+
+    LBRACKET	shift, and go to state 12
+
+
+
+state 7
+
+    AbstractVertex  ->  ConcreteVertex .   (rule 11)
+
+    $default	reduce using rule 11 (AbstractVertex)
+
+
+
+state 8
+
+    ConcreteVertex  ->  NODE_SEPARATOR @4 . ID   (rule 16)
+
+    ID  	shift, and go to state 13
+
+
+
+state 9
+
+    NodeList  ->  Node NodeList .   (rule 3)
+
+    $default	reduce using rule 3 (NodeList)
+
+
+
+state 10
+
+    OptionalAttributes  ->  ATTRIBUTES_HEADER . ID   (rule 6)
+
+    ID  	shift, and go to state 14
+
+
+
+state 11
+
+    Node  ->  AbstractVertex OptionalAttributes . ConnectionList   (rule 4)
+
+    CONNECTION	shift, and go to state 15
+
+    $default	reduce using rule 7 (ConnectionList)
+
+    ConnectionList	go to state 16
+
+
+
+state 12
+
+    Subgraph  ->  @2 LBRACKET . @3 Graph RBRACKET   (rule 14)
+
+    $default	reduce using rule 13 (@3)
+
+    @3  	go to state 17
+
+
+
+state 13
+
+    ConcreteVertex  ->  NODE_SEPARATOR @4 ID .   (rule 16)
+
+    $default	reduce using rule 16 (ConcreteVertex)
+
+
+
+state 14
+
+    OptionalAttributes  ->  ATTRIBUTES_HEADER ID .   (rule 6)
+
+    $default	reduce using rule 6 (OptionalAttributes)
+
+
+
+state 15
+
+    ConnectionList  ->  CONNECTION . @1 ConnectionList   (rule 9)
+
+    $default	reduce using rule 8 (@1)
+
+    @1  	go to state 18
+
+
+
+state 16
+
+    Node  ->  AbstractVertex OptionalAttributes ConnectionList .   (rule 4)
+
+    $default	reduce using rule 4 (Node)
+
+
+
+state 17
+
+    Subgraph  ->  @2 LBRACKET @3 . Graph RBRACKET   (rule 14)
+
+    NODE_SEPARATOR	shift, and go to state 1
+
+    LBRACKET	reduce using rule 12 (@2)
+    $default	reduce using rule 2 (NodeList)
+
+    Graph	go to state 19
+    NodeList	go to state 2
+    Node	go to state 3
+    AbstractVertex	go to state 4
+    Subgraph	go to state 5
+    @2  	go to state 6
+    ConcreteVertex	go to state 7
+
+
+
+state 18
+
+    ConnectionList  ->  CONNECTION @1 . ConnectionList   (rule 9)
+
+    CONNECTION	shift, and go to state 15
+
+    $default	reduce using rule 7 (ConnectionList)
+
+    ConnectionList	go to state 20
+
+
+
+state 19
+
+    Subgraph  ->  @2 LBRACKET @3 Graph . RBRACKET   (rule 14)
+
+    RBRACKET	shift, and go to state 21
+
+
+
+state 20
+
+    ConnectionList  ->  CONNECTION @1 ConnectionList .   (rule 9)
+
+    $default	reduce using rule 9 (ConnectionList)
+
+
+
+state 21
+
+    Subgraph  ->  @2 LBRACKET @3 Graph RBRACKET .   (rule 14)
+
+    $default	reduce using rule 14 (Subgraph)
+
+
+
+state 22
+
+    $   	go to state 23
+
+
+
+state 23
+
+    $   	go to state 24
+
+
+
+state 24
+
+    $default	accept

@@ -1,0 +1,21 @@
+Elapsed time is 115.234000 seconds.
+Training error : 0.044848
+Elapsed time is 0.016000 seconds.
+Error : 0.359905
+Result Difference : 0.184450
+-------------------
+Expected temperature : 950.000000
+Received temperature : 954.999719
+Expected : 
+     6     0   120     0     0    30     3     6    20   950
+
+Received : 
+  Columns 1 through 8 
+
+    5.9991    0.0000  135.6995    0.0470    0.0000   52.2170    2.9983    5.9829
+
+  Columns 9 through 10 
+
+   10.0282  954.9997
+
+===============================================

@@ -1,0 +1,946 @@
+M_OptimizeArchitecture started...
+M_GenerateArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.648231   NeuronsCount=14    TestError = 1.364241
+Best       : TrainError=0.793862   NeuronsCount=13    TestError = 0.772003
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.614678   NeuronsCount=15    TestError = 1.062847
+Best       : TrainError=0.793862   NeuronsCount=13    TestError = 0.772003
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+Best       : TrainError=0.793862   NeuronsCount=13    TestError = 0.772003
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.247208   NeuronsCount=17    TestError = 2.453248
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.286522   NeuronsCount=18    TestError = 1.600325
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.310426   NeuronsCount=19    TestError = 1.644212
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.151467   NeuronsCount=20    TestError = 1.867044
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 8 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.035886   NeuronsCount=21    TestError = 1.637187
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 9 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.131915   NeuronsCount=22    TestError = 2.164250
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 10 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.053629   NeuronsCount=23    TestError = 1.879699
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 11 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.117478   NeuronsCount=24    TestError = 1.182559
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 12 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.054859   NeuronsCount=25    TestError = 1.324369
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 13 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.101339   NeuronsCount=26    TestError = 2.547084
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 14 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.112533   NeuronsCount=27    TestError = 1.390317
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 15 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.001422   NeuronsCount=28    TestError = 1.517043
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 16 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.448097   NeuronsCount=29    TestError = 1.178225
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 17 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.004177   NeuronsCount=30    TestError = 1.500857
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 18 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.070886   NeuronsCount=31    TestError = 1.556615
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 19 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.207638   NeuronsCount=32    TestError = 1.498567
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Evaluating network after 20 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.097165   NeuronsCount=33    TestError = 1.921335
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+--------------------------
+Iteration : 0
+Failures count : 0
+RandomMutation
+Mutation operator : ExpandVertexToTree
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.690493   NeuronsCount=14    TestError = 1.073311
+Best       : TrainError=0.752045   NeuronsCount=13    TestError = 1.011205
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.643103   NeuronsCount=16    TestError = 1.066925
+Best       : TrainError=0.752045   NeuronsCount=13    TestError = 1.011205
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.497870   NeuronsCount=19    TestError = 1.165455
+Best       : TrainError=0.752045   NeuronsCount=13    TestError = 1.011205
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.507861   NeuronsCount=23    TestError = 1.314911
+Best       : TrainError=0.752045   NeuronsCount=13    TestError = 1.011205
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.367771   NeuronsCount=28    TestError = 1.836761
+Best       : TrainError=0.752045   NeuronsCount=13    TestError = 1.011205
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.420909   NeuronsCount=34    TestError = 1.205662
+Best       : TrainError=0.752045   NeuronsCount=13    TestError = 1.011205
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.532101   NeuronsCount=41    TestError = 1.048442
+Best       : TrainError=0.752045   NeuronsCount=13    TestError = 1.011205
+--------------------------
+Evaluating network after 8 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.326425   NeuronsCount=49    TestError = 1.203373
+Best       : TrainError=0.752045   NeuronsCount=13    TestError = 1.011205
+--------------------------
+Evaluating network after 9 rewritings...
+Tries : 1 out of 1
+Architecture limitations exceeded.
+Done with this architecture.
+Updating architecture...
+Candidate  : TrainError=0.752045   NeuronsCount=13    TestError = 1.011205
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+The candidate solution is worse.
+==========================
+Iteration : 1
+Failures count : 1
+RandomMutation
+Mutation operator : AddIsolatedLayer
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.743280   NeuronsCount=14    TestError = 0.867142
+Best       : TrainError=0.780071   NeuronsCount=13    TestError = 0.833229
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.687098   NeuronsCount=15    TestError = 0.959672
+Best       : TrainError=0.780071   NeuronsCount=13    TestError = 0.833229
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.702131   NeuronsCount=15    TestError = 0.902916
+Best       : TrainError=0.780071   NeuronsCount=13    TestError = 0.833229
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.718441   NeuronsCount=15    TestError = 0.919864
+Best       : TrainError=0.780071   NeuronsCount=13    TestError = 0.833229
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+Best       : TrainError=0.780071   NeuronsCount=13    TestError = 0.833229
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.633526   NeuronsCount=15    TestError = 1.328258
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.759333   NeuronsCount=15    TestError = 0.894318
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 8 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.750507   NeuronsCount=15    TestError = 0.928377
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 9 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.643274   NeuronsCount=15    TestError = 1.419939
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 10 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.732798   NeuronsCount=15    TestError = 0.966278
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 11 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.700782   NeuronsCount=15    TestError = 0.994342
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 12 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.745347   NeuronsCount=15    TestError = 0.897564
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 13 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.670204   NeuronsCount=15    TestError = 1.178561
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 14 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.708858   NeuronsCount=15    TestError = 0.954783
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 15 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.701839   NeuronsCount=15    TestError = 0.956230
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 16 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.626455   NeuronsCount=15    TestError = 0.878169
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 17 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.748531   NeuronsCount=15    TestError = 0.723068
+Best       : TrainError=0.728647   NeuronsCount=15    TestError = 0.778640
+--------------------------
+Evaluating network after 18 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.665830   NeuronsCount=15    TestError = 1.100925
+Best       : TrainError=0.748531   NeuronsCount=15    TestError = 0.723068
+--------------------------
+Evaluating network after 19 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.785610   NeuronsCount=15    TestError = 0.756916
+Best       : TrainError=0.748531   NeuronsCount=15    TestError = 0.723068
+--------------------------
+Evaluating network after 20 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.652768   NeuronsCount=15    TestError = 1.200261
+Best       : TrainError=0.748531   NeuronsCount=15    TestError = 0.723068
+--------------------------
+Updating architecture...
+Candidate  : TrainError=0.748531   NeuronsCount=15    TestError = 0.723068
+Best       : TrainError=0.464944   NeuronsCount=16    TestError = 0.748012
+The candidate solution is better.
+==========================
+Iteration : 2
+Failures count : 0
+RandomMutation
+Mutation operator : ExpandVertexToCascade
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+Best       : TrainError=0.768233   NeuronsCount=13    TestError = 0.936748
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.728347   NeuronsCount=16    TestError = 1.039234
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.708374   NeuronsCount=17    TestError = 0.887721
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.566946   NeuronsCount=18    TestError = 0.878466
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.450302   NeuronsCount=19    TestError = 1.059173
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.357087   NeuronsCount=20    TestError = 1.348577
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.264571   NeuronsCount=21    TestError = 1.851334
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 8 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.343702   NeuronsCount=22    TestError = 1.921391
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 9 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.699057   NeuronsCount=23    TestError = 0.885050
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 10 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.234165   NeuronsCount=24    TestError = 1.934510
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 11 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.145501   NeuronsCount=25    TestError = 2.425483
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 12 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.342549   NeuronsCount=26    TestError = 1.773643
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 13 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.721705   NeuronsCount=27    TestError = 1.040671
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 14 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.504859   NeuronsCount=28    TestError = 1.417284
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 15 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.763692   NeuronsCount=29    TestError = 0.826319
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 16 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.188995   NeuronsCount=30    TestError = 1.515173
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 17 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.080332   NeuronsCount=31    TestError = 1.545800
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 18 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.125299   NeuronsCount=32    TestError = 1.332698
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 19 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.086369   NeuronsCount=33    TestError = 2.043681
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Evaluating network after 20 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.097573   NeuronsCount=34    TestError = 1.517772
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+--------------------------
+Updating architecture...
+Candidate  : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+Best       : TrainError=0.748531   NeuronsCount=15    TestError = 0.723068
+The candidate solution is better.
+==========================
+Iteration : 3
+Failures count : 0
+RandomMutation
+Mutation operator : ExpandVertexToTree
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.673282   NeuronsCount=14    TestError = 1.446989
+Best       : TrainError=0.791182   NeuronsCount=13    TestError = 0.776834
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.680764   NeuronsCount=16    TestError = 1.089219
+Best       : TrainError=0.791182   NeuronsCount=13    TestError = 0.776834
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.665942   NeuronsCount=19    TestError = 0.876007
+Best       : TrainError=0.791182   NeuronsCount=13    TestError = 0.776834
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.480196   NeuronsCount=24    TestError = 0.921624
+Best       : TrainError=0.791182   NeuronsCount=13    TestError = 0.776834
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.518366   NeuronsCount=33    TestError = 1.114551
+Best       : TrainError=0.791182   NeuronsCount=13    TestError = 0.776834
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.229970   NeuronsCount=50    TestError = 2.644357
+Best       : TrainError=0.791182   NeuronsCount=13    TestError = 0.776834
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Architecture limitations exceeded.
+Done with this architecture.
+Updating architecture...
+Candidate  : TrainError=0.791182   NeuronsCount=13    TestError = 0.776834
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+The candidate solution is worse.
+==========================
+Iteration : 4
+Failures count : 1
+RandomMutation
+Mutation operator : ExpandVertexToCascade
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+Best       : TrainError=0.787584   NeuronsCount=13    TestError = 0.798021
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.671705   NeuronsCount=16    TestError = 1.097779
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.658093   NeuronsCount=18    TestError = 1.073914
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.529250   NeuronsCount=20    TestError = 1.260959
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.251573   NeuronsCount=22    TestError = 1.847963
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.359597   NeuronsCount=24    TestError = 1.171325
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.230338   NeuronsCount=26    TestError = 1.384866
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 8 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.326325   NeuronsCount=28    TestError = 1.924967
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 9 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.095805   NeuronsCount=30    TestError = 1.511340
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 10 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.123661   NeuronsCount=32    TestError = 1.673596
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 11 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.281706   NeuronsCount=34    TestError = 1.717107
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 12 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.503415   NeuronsCount=36    TestError = 1.233053
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 13 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.480177   NeuronsCount=38    TestError = 1.243429
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 14 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.243380   NeuronsCount=40    TestError = 1.805568
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 15 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.272554   NeuronsCount=42    TestError = 1.934140
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 16 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.695047   NeuronsCount=44    TestError = 1.036279
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 17 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.752500   NeuronsCount=46    TestError = 1.324916
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 18 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.667234   NeuronsCount=48    TestError = 0.885567
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 19 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.107399   NeuronsCount=50    TestError = 1.908174
+Best       : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+--------------------------
+Evaluating network after 20 rewritings...
+Tries : 1 out of 1
+Architecture limitations exceeded.
+Done with this architecture.
+Updating architecture...
+Candidate  : TrainError=0.748734   NeuronsCount=14    TestError = 0.741496
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+The candidate solution is worse.
+==========================
+Iteration : 5
+Failures count : 2
+RandomMutation
+Mutation operator : AddOpenLayer
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.692758   NeuronsCount=14    TestError = 0.994594
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.701531   NeuronsCount=16    TestError = 0.994675
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.410584   NeuronsCount=19    TestError = 1.516952
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.233114   NeuronsCount=22    TestError = 1.354255
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.061662   NeuronsCount=25    TestError = 1.394868
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.209545   NeuronsCount=28    TestError = 2.452809
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.034296   NeuronsCount=31    TestError = 2.272670
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 8 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.184765   NeuronsCount=34    TestError = 1.868942
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 9 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.574378   NeuronsCount=37    TestError = 1.153404
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 10 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.284861   NeuronsCount=40    TestError = 1.175059
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 11 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.660494   NeuronsCount=43    TestError = 1.091118
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 12 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.021792   NeuronsCount=46    TestError = 1.735128
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 13 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.249029   NeuronsCount=49    TestError = 1.537004
+Best       : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+--------------------------
+Evaluating network after 14 rewritings...
+Tries : 1 out of 1
+Architecture limitations exceeded.
+Done with this architecture.
+Updating architecture...
+Candidate  : TrainError=0.763762   NeuronsCount=13    TestError = 0.894766
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+The candidate solution is worse.
+==========================
+Iteration : 6
+Failures count : 3
+RandomMutation
+Mutation operator : ExpandVertexToTree
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.767724   NeuronsCount=14    TestError = 0.744160
+Best       : TrainError=0.776429   NeuronsCount=13    TestError = 0.849177
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.680224   NeuronsCount=16    TestError = 1.107395
+Best       : TrainError=0.767724   NeuronsCount=14    TestError = 0.744160
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.711547   NeuronsCount=20    TestError = 0.915772
+Best       : TrainError=0.767724   NeuronsCount=14    TestError = 0.744160
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.405184   NeuronsCount=25    TestError = 1.970102
+Best       : TrainError=0.767724   NeuronsCount=14    TestError = 0.744160
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.322088   NeuronsCount=31    TestError = 1.867372
+Best       : TrainError=0.767724   NeuronsCount=14    TestError = 0.744160
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.086665   NeuronsCount=38    TestError = 2.109660
+Best       : TrainError=0.767724   NeuronsCount=14    TestError = 0.744160
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.207449   NeuronsCount=46    TestError = 2.136650
+Best       : TrainError=0.767724   NeuronsCount=14    TestError = 0.744160
+--------------------------
+Evaluating network after 8 rewritings...
+Tries : 1 out of 1
+Architecture limitations exceeded.
+Done with this architecture.
+Updating architecture...
+Candidate  : TrainError=0.767724   NeuronsCount=14    TestError = 0.744160
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+The candidate solution is worse.
+==========================
+Iteration : 7
+Failures count : 4
+RandomMutation
+Mutation operator : AddOpenLayer
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.712179   NeuronsCount=14    TestError = 1.084157
+Best       : TrainError=0.781664   NeuronsCount=13    TestError = 0.815802
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.676240   NeuronsCount=16    TestError = 1.173944
+Best       : TrainError=0.781664   NeuronsCount=13    TestError = 0.815802
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.402880   NeuronsCount=20    TestError = 2.132648
+Best       : TrainError=0.781664   NeuronsCount=13    TestError = 0.815802
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.217296   NeuronsCount=26    TestError = 1.828029
+Best       : TrainError=0.781664   NeuronsCount=13    TestError = 0.815802
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.367604   NeuronsCount=33    TestError = 1.197734
+Best       : TrainError=0.781664   NeuronsCount=13    TestError = 0.815802
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.469640   NeuronsCount=41    TestError = 1.398614
+Best       : TrainError=0.781664   NeuronsCount=13    TestError = 0.815802
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.051247   NeuronsCount=50    TestError = 1.670849
+Best       : TrainError=0.781664   NeuronsCount=13    TestError = 0.815802
+--------------------------
+Evaluating network after 8 rewritings...
+Tries : 1 out of 1
+Architecture limitations exceeded.
+Done with this architecture.
+Updating architecture...
+Candidate  : TrainError=0.781664   NeuronsCount=13    TestError = 0.815802
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+The candidate solution is worse.
+==========================
+Iteration : 8
+Failures count : 5
+RandomMutation
+Mutation operator : AddIsolatedLayer
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.727495   NeuronsCount=14    TestError = 0.986434
+Best       : TrainError=0.759854   NeuronsCount=13    TestError = 0.904267
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.757204   NeuronsCount=16    TestError = 1.018232
+Best       : TrainError=0.759854   NeuronsCount=13    TestError = 0.904267
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.376696   NeuronsCount=20    TestError = 1.340745
+Best       : TrainError=0.759854   NeuronsCount=13    TestError = 0.904267
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.411273   NeuronsCount=26    TestError = 1.412395
+Best       : TrainError=0.759854   NeuronsCount=13    TestError = 0.904267
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.427044   NeuronsCount=33    TestError = 1.509900
+Best       : TrainError=0.759854   NeuronsCount=13    TestError = 0.904267
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.180289   NeuronsCount=41    TestError = 1.560727
+Best       : TrainError=0.759854   NeuronsCount=13    TestError = 0.904267
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.084043   NeuronsCount=50    TestError = 2.004624
+Best       : TrainError=0.759854   NeuronsCount=13    TestError = 0.904267
+--------------------------
+Evaluating network after 8 rewritings...
+Tries : 1 out of 1
+Architecture limitations exceeded.
+Done with this architecture.
+Updating architecture...
+Candidate  : TrainError=0.759854   NeuronsCount=13    TestError = 0.904267
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+The candidate solution is worse.
+==========================
+Iteration : 9
+Failures count : 6
+RandomMutation
+Mutation operator : ExpandVertexToTree
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.746593   NeuronsCount=14    TestError = 0.809818
+Best       : TrainError=0.762623   NeuronsCount=13    TestError = 0.892363
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.718121   NeuronsCount=16    TestError = 0.991545
+Best       : TrainError=0.746593   NeuronsCount=14    TestError = 0.809818
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.530815   NeuronsCount=20    TestError = 1.581808
+Best       : TrainError=0.746593   NeuronsCount=14    TestError = 0.809818
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.326399   NeuronsCount=26    TestError = 1.292517
+Best       : TrainError=0.746593   NeuronsCount=14    TestError = 0.809818
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.264580   NeuronsCount=33    TestError = 1.516365
+Best       : TrainError=0.746593   NeuronsCount=14    TestError = 0.809818
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.480123   NeuronsCount=41    TestError = 0.754459
+Best       : TrainError=0.746593   NeuronsCount=14    TestError = 0.809818
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.218429   NeuronsCount=50    TestError = 1.596290
+Best       : TrainError=0.480123   NeuronsCount=41    TestError = 0.754459
+--------------------------
+Evaluating network after 8 rewritings...
+Tries : 1 out of 1
+Architecture limitations exceeded.
+Done with this architecture.
+Updating architecture...
+Candidate  : TrainError=0.480123   NeuronsCount=41    TestError = 0.754459
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+The candidate solution is worse.
+==========================
+Iteration : 10
+Failures count : 7
+RandomMutation
+Mutation operator : ExpandVertexToTree
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.726847   NeuronsCount=14    TestError = 0.947438
+Best       : TrainError=0.775807   NeuronsCount=13    TestError = 0.875714
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.655974   NeuronsCount=16    TestError = 1.233075
+Best       : TrainError=0.775807   NeuronsCount=13    TestError = 0.875714
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.543291   NeuronsCount=20    TestError = 1.520984
+Best       : TrainError=0.775807   NeuronsCount=13    TestError = 0.875714
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.329930   NeuronsCount=26    TestError = 1.796581
+Best       : TrainError=0.775807   NeuronsCount=13    TestError = 0.875714
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.342220   NeuronsCount=34    TestError = 1.923410
+Best       : TrainError=0.775807   NeuronsCount=13    TestError = 0.875714
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.498503   NeuronsCount=44    TestError = 1.382314
+Best       : TrainError=0.775807   NeuronsCount=13    TestError = 0.875714
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Architecture limitations exceeded.
+Done with this architecture.
+Updating architecture...
+Candidate  : TrainError=0.775807   NeuronsCount=13    TestError = 0.875714
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+The candidate solution is worse.
+==========================
+Iteration : 11
+Failures count : 8
+RandomMutation
+Mutation operator : ExpandVertexToLayer
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.670509   NeuronsCount=14    TestError = 1.063475
+Best       : TrainError=0.802695   NeuronsCount=13    TestError = 0.749980
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.668125   NeuronsCount=16    TestError = 0.825491
+Best       : TrainError=0.802695   NeuronsCount=13    TestError = 0.749980
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.529307   NeuronsCount=20    TestError = 1.316511
+Best       : TrainError=0.802695   NeuronsCount=13    TestError = 0.749980
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.321051   NeuronsCount=26    TestError = 1.744872
+Best       : TrainError=0.802695   NeuronsCount=13    TestError = 0.749980
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.227687   NeuronsCount=34    TestError = 1.820047
+Best       : TrainError=0.802695   NeuronsCount=13    TestError = 0.749980
+--------------------------
+Evaluating network after 6 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.124242   NeuronsCount=44    TestError = 1.614083
+Best       : TrainError=0.802695   NeuronsCount=13    TestError = 0.749980
+--------------------------
+Evaluating network after 7 rewritings...
+Tries : 1 out of 1
+Architecture limitations exceeded.
+Done with this architecture.
+Updating architecture...
+Candidate  : TrainError=0.802695   NeuronsCount=13    TestError = 0.749980
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+The candidate solution is worse.
+==========================
+Iteration : 12
+Failures count : 9
+RandomMutation
+Mutation operator : ExpandVertexToTree
+M_GetBestNetOfCurrentArchitecture
+Evaluating network after 1 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.715283   NeuronsCount=14    TestError = 0.904143
+Best       : TrainError=0.793834   NeuronsCount=13    TestError = 0.793359
+--------------------------
+Evaluating network after 2 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.657941   NeuronsCount=17    TestError = 0.966722
+Best       : TrainError=0.793834   NeuronsCount=13    TestError = 0.793359
+--------------------------
+Evaluating network after 3 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.594437   NeuronsCount=23    TestError = 1.620605
+Best       : TrainError=0.793834   NeuronsCount=13    TestError = 0.793359
+--------------------------
+Evaluating network after 4 rewritings...
+Tries : 1 out of 1
+Candidate  : TrainError=0.536838   NeuronsCount=34    TestError = 1.403914
+Best       : TrainError=0.793834   NeuronsCount=13    TestError = 0.793359
+--------------------------
+Evaluating network after 5 rewritings...
+Tries : 1 out of 1
+Architecture limitations exceeded.
+Done with this architecture.
+Updating architecture...
+Candidate  : TrainError=0.793834   NeuronsCount=13    TestError = 0.793359
+Best       : TrainError=0.753903   NeuronsCount=14    TestError = 0.723055
+The candidate solution is worse.
+==========================
+M_OptimizeArchitecture ended.
+Elapsed time is 0.031000 seconds.
+Error : 0.890378
+Result Difference : 0.871381
+-------------------
+Expected temperature : 850.000000
+Received temperature : 900.697918
+Expected : 
+     6     0   160     3     6    20     0     0     0   850
+
+Received : 
+  Columns 1 through 8 
+
+    4.1680    3.0534   91.0970    2.3106    3.1744   38.1363    1.1680    2.3360
+
+  Columns 9 through 10 
+
+    9.9589  900.6979
+
+===============================================

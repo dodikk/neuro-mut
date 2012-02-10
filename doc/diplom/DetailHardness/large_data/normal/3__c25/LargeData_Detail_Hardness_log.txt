@@ -1,0 +1,41 @@
+Elapsed time is 246.891000 seconds.
+Elapsed time is 36336.812000 seconds.
+Training error : 0.650020
+Elapsed time is 18.375000 seconds.
+Error : 0.558844
+Result Difference : 0.442647
+-------------------
+Expected temperature : 950.000000
+Received temperature : 918.651613
+Expected : 
+     6     0   120     0     0    30     3     6    20   950
+
+Received : 
+  Columns 1 through 8 
+
+    5.0974    1.4894  112.3025    1.3545    2.0016   32.6401    1.9103    3.8286
+
+  Columns 9 through 10 
+
+    9.9131  918.6516
+
+===============================================
+Elapsed time is 0.594000 seconds.
+Error : 1.040822
+Result Difference : 0.831447
+-------------------
+Expected temperature : 950.000000
+Received temperature : 903.474734
+Expected : 
+     6     0   120     0     0    30     3     6    20   950
+
+Received : 
+  Columns 1 through 8 
+
+    4.3206    2.8115   78.8612    1.3487    2.9464   36.1175    1.5656    3.0778
+
+  Columns 9 through 10 
+
+   10.1546  903.4747
+
+===============================================

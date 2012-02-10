@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphCompiler", "GrahpCompiler\GrahpCompiler.vcproj", "{AC212B6D-1030-4DA8-8DC5-58490DB2AF95}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E756ED3B-3976-4B26-8104-A24EB882C601} = {E756ED3B-3976-4B26-8104-A24EB882C601}
+		{1F51BA42-68AC-4B78-995E-BE88703D6436} = {1F51BA42-68AC-4B78-995E-BE88703D6436}
+		{5A70D667-640C-4502-B645-BCF23BD20EE1} = {5A70D667-640C-4502-B645-BCF23BD20EE1}
+		{B067E7B0-7637-4AC5-B2E2-DAF5B46F9EC0} = {B067E7B0-7637-4AC5-B2E2-DAF5B46F9EC0}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flex", "Flex", "{D519924D-860B-4511-ADB8-131730F4D22D}"
+	ProjectSection(SolutionItems) = preProject
+		GraphCompiler.lib\flex.exe = GraphCompiler.lib\flex.exe
+		man\FlexManual.txt = man\FlexManual.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bison", "Bison", "{9B5EC9C8-8A5D-4F94-9E96-3A710746E759}"
+	ProjectSection(SolutionItems) = preProject
+		GraphCompiler.lib\bison.simple = GraphCompiler.lib\bison.simple
+		GraphCompiler.lib\bison1.exe = GraphCompiler.lib\bison1.exe
+		man\BisonManual.txt = man\BisonManual.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalTools", "ExternalTools", "{BD3DF55D-042E-4D63-9418-D9E4BE20E591}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphCompiler.lib", "GraphCompiler.lib\GraphCompiler.lib.vcproj", "{B067E7B0-7637-4AC5-B2E2-DAF5B46F9EC0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E756ED3B-3976-4B26-8104-A24EB882C601} = {E756ED3B-3976-4B26-8104-A24EB882C601}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcproj", "{E756ED3B-3976-4B26-8104-A24EB882C601}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{B4971218-8B0C-4734-A9F9-B3275EA706F5}"
+	ProjectSection(SolutionItems) = preProject
+		GraphCompiler.lib\CreateLexer.bat = GraphCompiler.lib\CreateLexer.bat
+		GraphCompiler.lib\CreateParser.bat = GraphCompiler.lib\CreateParser.bat
+		GraphCompiler.lib\parser.bat = GraphCompiler.lib\parser.bat
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphLib", "GraphLib\GraphLib.vcproj", "{5A70D667-640C-4502-B645-BCF23BD20EE1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E756ED3B-3976-4B26-8104-A24EB882C601} = {E756ED3B-3976-4B26-8104-A24EB882C601}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FormatsLib", "FormatsLib\FormatsLib.vcproj", "{1F51BA42-68AC-4B78-995E-BE88703D6436}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E756ED3B-3976-4B26-8104-A24EB882C601} = {E756ED3B-3976-4B26-8104-A24EB882C601}
+		{5A70D667-640C-4502-B645-BCF23BD20EE1} = {5A70D667-640C-4502-B645-BCF23BD20EE1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VarUtility", "VarUtility\VarUtility.vcproj", "{B193E572-3414-4B43-884C-7B2AC9E03844}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E756ED3B-3976-4B26-8104-A24EB882C601} = {E756ED3B-3976-4B26-8104-A24EB882C601}
+		{1F51BA42-68AC-4B78-995E-BE88703D6436} = {1F51BA42-68AC-4B78-995E-BE88703D6436}
+		{5A70D667-640C-4502-B645-BCF23BD20EE1} = {5A70D667-640C-4502-B645-BCF23BD20EE1}
+		{B067E7B0-7637-4AC5-B2E2-DAF5B46F9EC0} = {B067E7B0-7637-4AC5-B2E2-DAF5B46F9EC0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC212B6D-1030-4DA8-8DC5-58490DB2AF95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC212B6D-1030-4DA8-8DC5-58490DB2AF95}.Debug|Win32.Build.0 = Debug|Win32
+		{AC212B6D-1030-4DA8-8DC5-58490DB2AF95}.Release|Win32.ActiveCfg = Release|Win32
+		{AC212B6D-1030-4DA8-8DC5-58490DB2AF95}.Release|Win32.Build.0 = Release|Win32
+		{B067E7B0-7637-4AC5-B2E2-DAF5B46F9EC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B067E7B0-7637-4AC5-B2E2-DAF5B46F9EC0}.Debug|Win32.Build.0 = Debug|Win32
+		{B067E7B0-7637-4AC5-B2E2-DAF5B46F9EC0}.Release|Win32.ActiveCfg = Release|Win32
+		{B067E7B0-7637-4AC5-B2E2-DAF5B46F9EC0}.Release|Win32.Build.0 = Release|Win32
+		{E756ED3B-3976-4B26-8104-A24EB882C601}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E756ED3B-3976-4B26-8104-A24EB882C601}.Debug|Win32.Build.0 = Debug|Win32
+		{E756ED3B-3976-4B26-8104-A24EB882C601}.Release|Win32.ActiveCfg = Release|Win32
+		{E756ED3B-3976-4B26-8104-A24EB882C601}.Release|Win32.Build.0 = Release|Win32
+		{5A70D667-640C-4502-B645-BCF23BD20EE1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A70D667-640C-4502-B645-BCF23BD20EE1}.Debug|Win32.Build.0 = Debug|Win32
+		{5A70D667-640C-4502-B645-BCF23BD20EE1}.Release|Win32.ActiveCfg = Release|Win32
+		{5A70D667-640C-4502-B645-BCF23BD20EE1}.Release|Win32.Build.0 = Release|Win32
+		{1F51BA42-68AC-4B78-995E-BE88703D6436}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F51BA42-68AC-4B78-995E-BE88703D6436}.Debug|Win32.Build.0 = Debug|Win32
+		{1F51BA42-68AC-4B78-995E-BE88703D6436}.Release|Win32.ActiveCfg = Release|Win32
+		{1F51BA42-68AC-4B78-995E-BE88703D6436}.Release|Win32.Build.0 = Release|Win32
+		{B193E572-3414-4B43-884C-7B2AC9E03844}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B193E572-3414-4B43-884C-7B2AC9E03844}.Debug|Win32.Build.0 = Debug|Win32
+		{B193E572-3414-4B43-884C-7B2AC9E03844}.Release|Win32.ActiveCfg = Release|Win32
+		{B193E572-3414-4B43-884C-7B2AC9E03844}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B5EC9C8-8A5D-4F94-9E96-3A710746E759} = {BD3DF55D-042E-4D63-9418-D9E4BE20E591}
+		{D519924D-860B-4511-ADB8-131730F4D22D} = {BD3DF55D-042E-4D63-9418-D9E4BE20E591}
+		{B4971218-8B0C-4734-A9F9-B3275EA706F5} = {BD3DF55D-042E-4D63-9418-D9E4BE20E591}
+	EndGlobalSection
+EndGlobal

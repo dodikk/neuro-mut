@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Written on 24-Apr-2010 00:58:21 using the XML Toolbox for Matlab -->
+<root xml_tb_version="3.2.1" idx="1" type="struct" size="1 1">
+  <axiom idx="1" type="char" size="1 124">[_rad:io_hard:io]:i+1[_layers:io]+1[_AIR1:io_WATER1:io_DT1:io_AIR2:io_WATER2:io_DT2:io_AIR3:io_WATER3:io_DT3:io_TEMPER:io]:o</axiom>
+  <rules idx="1" type="struct" size="1 10">
+    <before idx="1" type="char" size="1 7">_layers</before>
+    <after idx="1" type="char" size="1 7">_layer1</after>
+    <before idx="2" type="char" size="1 7">_layer1</before>
+    <after idx="2" type="char" size="1 28">[_tp234757:io+1_tp234759:io]</after>
+    <before idx="3" type="char" size="1 7">_layer1</before>
+    <after idx="3" type="char" size="1 26">[_tp290282:i+1_tp290284:o]</after>
+    <before idx="4" type="char" size="1 7">_layer1</before>
+    <after idx="4" type="char" size="1 31">[[_tp321815:io]:i+1_tp321817:o]</after>
+    <before idx="5" type="char" size="1 12">_tp321815:io</before>
+    <after idx="5" type="char" size="1 31">_tp321817:io+1[_tp321815:io]:io</after>
+    <before idx="6" type="char" size="1 9">_tp321817</before>
+    <after idx="6" type="char" size="1 26">[_tp504165:i+1_tp504167:o]</after>
+    <before idx="7" type="char" size="1 9">_tp321817</before>
+    <after idx="7" type="char" size="1 26">[_tp160373:i+1_tp160375:o]</after>
+    <before idx="8" type="char" size="1 7">_layer1</before>
+    <after idx="8" type="char" size="1 35">[_tp402090:i+1+2_layer1:o_layer1:o]</after>
+    <before idx="9" type="char" size="1 9">_tp234757</before>
+    <after idx="9" type="char" size="1 28">[_tp462517:io+1_tp462518:io]</after>
+    <before idx="10" type="char" size="1 9">_tp462518</before>
+    <after idx="10" type="char" size="1 28">[_tp523034:io+1_tp523035:io]</after>
+  </rules>
+</root>

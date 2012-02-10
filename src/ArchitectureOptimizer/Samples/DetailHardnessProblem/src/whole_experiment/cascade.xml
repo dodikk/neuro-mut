@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Written on 21-Jan-2009 23:12:08 using the XML Toolbox for Matlab -->
+<root xml_tb_version="3.2.1" idx="1" type="struct" size="1 1">
+  <axiom idx="1" type="char" size="1 145">[_h1:io_h2:io_h3:io_h4:io_h5:io_h6:io]:i+1[_layers:io]+1[_AIR1:io_WATER1:io_DT1:io_AIR2:io_WATER2:io_DT2:io_AIR3:io_WATER3:io_DT3:io_TEMPER:io]:o</axiom>
+  <rules idx="1" type="struct" size="1 2">
+  <before idx="1" type="char" size="1 7">_layers</before> 
+  <after idx="1" type="char" size="1 19">[[_a:io]:io+1_b:io]</after> 
+  <before idx="2" type="char" size="1 5">_a:io</before> 
+  <after idx="2" type="char" size="1 17">_b:io+1[_a:io]:io</after> 
+  </rules>
+</root>

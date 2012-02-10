@@ -1,0 +1,8 @@
+Usage: C:\Storage\AlexDOcuments\Bakalavr\Compilers\Tutorial_Mad_kit\FilterEditor_open\FilterLib\bison.exe 
+	   [-dhltvyV] [-b file-prefix] [-o outfile] [-p name-prefix]
+       [--debug] [--defines] [--fixed-output-files] [--no-lines]
+       [--verbose] [--version] [--help] [--yacc]
+       [--file-prefix=prefix] [--name-prefix=prefix]
+       [--output=outfile] grammar-file
+
+bison 
